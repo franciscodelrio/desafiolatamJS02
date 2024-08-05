@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+}
+
+.password-select {
+    font-size: 16pt;
+    margin: 0 5px;
+}
+
+#verify-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14pt;
+}
+
+#result-text {
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}

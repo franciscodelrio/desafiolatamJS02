@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sticker-image {
+    width: 200px;
+    height: 200px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 10px;
+}
+
+.sticker-input {
+    width: 100px;
+}
+
+#result-text {
+    margin-top: 20px;
+}
+
+#verify-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14pt;
+}
